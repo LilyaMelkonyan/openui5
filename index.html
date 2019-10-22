@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SAPUI5 Walkthrough</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<script
+		id="sap-ui-bootstrap"
+		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+        data-sap-ui-libs="sap.m"
+		data-sap-ui-theme="sap_bluecrystal"
+		data-sap-ui-compatVersion="edge"
+		data-sap-ui-async="true"
+		data-sap-ui-preload=""
+		data-sap-ui-language="en"
+		data-sap-ui-resourceroots='{
+			"example": "./"
+		}'
+		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport">
+	</script>
+</head>
+<body class="sapUiBody" id="content">
+	<div data-sap-ui-component data-name="example" data-id="container" data-settings='{"id" : "example"}'></div>
+	<div class="loaderSection" id="loader">
+		<img src="./img/loading.gif" alt="please wait..." width="15%">
+	</div>
+</body>
+</html>
